@@ -1,0 +1,99 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: linear-gradient(to bottom left, rgb(221, 36, 118), rgb(255, 81, 47));
+	background-repeat: no-repeat;
+}
+
+.login-form__link {
+	text-decoration: none;
+	color: #ea355a;
+}
+
+.login-form {
+	box-sizing: border-box;
+	width: 52%;
+	margin: 60px auto;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 61px;
+	border-radius: 4px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-form__title {
+	margin: 0;
+	font-size: 24px;/*
+	text-align: center;*/
+	line-height: 1.2;
+}
+
+.login-form__title::before {
+	content: '';
+	display: inline-block;
+	padding-right: 10px;
+	background-image: url(../img/sign_up_icon.png);
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+.login-form__text--first-paragraph {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: rgb(122, 123, 127);
+	line-height: 1.538;
+	text-align: left;
+}
+
+.login-form__text--last-paragraph {
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: rgb(122, 123, 127);
+	line-height: 1.667;
+	text-align: left;
+}
+
+.text-field {
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	padding-left: 14px;
+	border: none;
+	border-radius: 4px;
+	background-color: rgb(240, 240, 240);
+	font-size: 14px;
+	color: rgb(122, 123, 127);
+	line-height: 1.429;
+	text-align: left;
+	height: 40px;
+}
+
+.text-field__first-name {
+	float: right;
+	width: 47%;
+}
+
+.text-field__last-name {
+	float: left;
+	width: 47%;
+}
+
+.text-field__email,
+.text-field__password {
+	width: 100%;
+}
+
+.Sign-up-btn {
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.111;
+	border: none;
+	border-radius: 4px;
+	background-color: rgb(234, 53, 90);
+	box-shadow: 0px 3px 0px 0px rgba(189, 25, 98, 0.004);
+	height: 50px;
+	width: 100%;
+}
+
